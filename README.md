@@ -38,7 +38,7 @@ It uses the **YouTube Data API (v3)** and **Google OAuth 2.0** authentication.
    pip install -r requirements.txt
    ```
 
-4. **Add your `client_secret.json` file to the `data` folder.**
+4. **Add your `client_secret.json` file to the "data" folder.**
 
 ---
 
@@ -48,7 +48,7 @@ It uses the **YouTube Data API (v3)** and **Google OAuth 2.0** authentication.
 2. Click **Create Credentials → OAuth Client ID**
 3. Choose **Desktop App** as the application type
 4. Download the `.json` file (containing `client_id` and `client_secret`)
-5. Rename it to `client_secret.json` and place it in the project directory
+5. Rename it to `client_secret.json` and place it in the project "data" directory
 6. Add `http://localhost:8080/` to Authorized redirect URIs in your OAuth 2.0 Client options
 
 When you run the program for the first time, it will open a browser window asking you to sign in to your Google account.
@@ -84,9 +84,9 @@ After authorization, it will generate a `token.json` file to store your credenti
 
 Run the main script:
 
-    ```bash
-    python main.py
-    ```
+   ```bash
+   python main.py
+   ```
 
 ---
 
